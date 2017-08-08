@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3B2C031F384D98009C7967 /* CHMediaPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B2C021F384D98009C7967 /* CHMediaPlayerView.m */; };
+		BA3B2C061F38507A009C7967 /* CHMediaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B2C051F38507A009C7967 /* CHMediaModel.m */; };
+		BA3B2C091F3855BF009C7967 /* CHProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B2C081F3855BF009C7967 /* CHProcessView.m */; };
+		BA3B2C0C1F398E37009C7967 /* CHMediaControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B2C0B1F398E37009C7967 /* CHMediaControlView.m */; };
 		BAA3F51C1F21CDA9002DE65B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F51B1F21CDA9002DE65B /* main.m */; };
 		BAA3F51F1F21CDA9002DE65B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F51E1F21CDA9002DE65B /* AppDelegate.m */; };
 		BAA3F5221F21CDA9002DE65B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F5211F21CDA9002DE65B /* ViewController.m */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA3B2C011F384D98009C7967 /* CHMediaPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMediaPlayerView.h; sourceTree = "<group>"; };
+		BA3B2C021F384D98009C7967 /* CHMediaPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMediaPlayerView.m; sourceTree = "<group>"; };
+		BA3B2C041F38507A009C7967 /* CHMediaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMediaModel.h; sourceTree = "<group>"; };
+		BA3B2C051F38507A009C7967 /* CHMediaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMediaModel.m; sourceTree = "<group>"; };
+		BA3B2C071F3855BF009C7967 /* CHProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHProcessView.h; sourceTree = "<group>"; };
+		BA3B2C081F3855BF009C7967 /* CHProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHProcessView.m; sourceTree = "<group>"; };
+		BA3B2C0A1F398E37009C7967 /* CHMediaControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMediaControlView.h; sourceTree = "<group>"; };
+		BA3B2C0B1F398E37009C7967 /* CHMediaControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMediaControlView.m; sourceTree = "<group>"; };
 		BAA3F5171F21CDA9002DE65B /* CHPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA3F51B1F21CDA9002DE65B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAA3F51D1F21CDA9002DE65B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA3B2BB81F38434D009C7967 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				BA3B2C071F3855BF009C7967 /* CHProcessView.h */,
+				BA3B2C081F3855BF009C7967 /* CHProcessView.m */,
+				BA3B2C041F38507A009C7967 /* CHMediaModel.h */,
+				BA3B2C051F38507A009C7967 /* CHMediaModel.m */,
+				BA3B2C0A1F398E37009C7967 /* CHMediaControlView.h */,
+				BA3B2C0B1F398E37009C7967 /* CHMediaControlView.m */,
+				BA3B2C011F384D98009C7967 /* CHMediaPlayerView.h */,
+				BA3B2C021F384D98009C7967 /* CHMediaPlayerView.m */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		BAA3F50E1F21CDA9002DE65B = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +128,7 @@
 		BAA3F5191F21CDA9002DE65B /* CHPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				BA3B2BB81F38434D009C7967 /* Media */,
 				BAA3F51D1F21CDA9002DE65B /* AppDelegate.h */,
 				BAA3F51E1F21CDA9002DE65B /* AppDelegate.m */,
 				BAA3F5201F21CDA9002DE65B /* ViewController.h */,
@@ -274,6 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA3F5221F21CDA9002DE65B /* ViewController.m in Sources */,
+				BA3B2C0C1F398E37009C7967 /* CHMediaControlView.m in Sources */,
+				BA3B2C091F3855BF009C7967 /* CHProcessView.m in Sources */,
+				BA3B2C031F384D98009C7967 /* CHMediaPlayerView.m in Sources */,
+				BA3B2C061F38507A009C7967 /* CHMediaModel.m in Sources */,
 				BAA3F51F1F21CDA9002DE65B /* AppDelegate.m in Sources */,
 				BAA3F51C1F21CDA9002DE65B /* main.m in Sources */,
 			);
@@ -425,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CHPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chsoft.CHPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CHPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chsoft.CHPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +541,7 @@
 				BAA3F5461F21CDA9002DE65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA3F5471F21CDA9002DE65B /* Build configuration list for PBXNativeTarget "CHPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +550,7 @@
 				BAA3F5491F21CDA9002DE65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAA3F54A1F21CDA9002DE65B /* Build configuration list for PBXNativeTarget "CHPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +559,7 @@
 				BAA3F54C1F21CDA9002DE65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

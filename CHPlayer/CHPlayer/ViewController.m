@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CHMediaPlayerView.h"
+#import "CHMediaModel.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor=[UIColor whiteColor];
+    
+    CHMediaPlayerView * mediaPlayerView=[[CHMediaPlayerView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, 200) withMediaType:VideoType];
+    mediaPlayerView.backgroundColor=[UIColor grayColor];
+    
+    [self.view addSubview:mediaPlayerView];
+    
+    
+    CHMediaModel * model=[[CHMediaModel alloc] init];
+    model.url=@"http://wvideo.spriteapp.cn/video/2016/0328/56f8ec01d9bfe_wpd.mp4";
+    
+    [mediaPlayerView loadMeidaModel:model];
+    
 }
 
 
